@@ -3,12 +3,16 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete>seamless.png");
+    background: url("../images/full-bloom.png");
     
 }
 
 * {
     box-sizing: border-box;
+}
+
+.wrapper {
+    width: 980px;
 }
 
 /* general */
@@ -107,7 +111,7 @@ footer {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8 px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     height: 50px;
 }
 
@@ -211,4 +215,14 @@ input[type=submit] {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+}
+
+@media screen and (max-width: 768px) {
+body {
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 640px;
+}
 }
